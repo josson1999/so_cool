@@ -5,5 +5,5 @@ read var
 
 git add .
 git commit -m ¨$(var)¨
-gi push
+git push
 
