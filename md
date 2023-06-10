@@ -1,6 +1,7 @@
 #!/bin/bash
-echo ¨boodbye¨ > cool
+echo ¨input commit message¨
+read var 
 git add .
-git commit -m 'my first script'
+git commit -m ¨$(var)¨
 git push
 
